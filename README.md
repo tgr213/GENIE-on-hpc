@@ -1,4 +1,4 @@
-# GENIE-on-hpc
+# GENIE-on-hpc test
 srun --partition=icecube_gpu --gres=gpu:1 --mem=5G --cpus-per-task=4 --time=03:00:00 --ntasks=1 --pty bash
 
 
